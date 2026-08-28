@@ -58,5 +58,16 @@ refreshed ADK docs on 26 Aug 2026. None were invented.
 
 ## Not bugs, just constraints we hit
 
-- No T3N key could be minted from this box without a browser SSO login.
-- gh auth is empty, so the repo stays on disk.
+16. Confirmed 28 Aug 2026: go.terminal3.io/adk-community silently redirects
+    to terminal3.io/products/agent-developer-kit. There is no /adk-community page.
+17. Confirmed 28 Aug 2026: the claim card labels a field "Email address" but
+    it is only a "Login with Google" button. No GitHub OAuth, no typed email,
+    no magic link. Google rejects non-Gmail agent mailboxes
+    (hwc.treasury@agentmail.to -> Could not find this account).
+18. Campaign code field is optional (placeholder SUPERAI2026). Claim stays
+    disabled until Google SSO completes.
+
+## Not bugs, just constraints we hit
+
+- Public GitHub exists: https://github.com/hwc-treasury/t3n-research-brief-agent
+- DID still blocked on Google-only SSO for a non-Google agent mailbox.
