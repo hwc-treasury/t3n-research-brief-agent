@@ -1,0 +1,25 @@
+{
+  "name": "t3n-research-brief-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Small enterprise research-brief agent for the Terminal 3 Network ADK challenge.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "brief": "node src/cli.mjs",
+    "demo": "node src/cli.mjs --file fixtures/sample-vendor.html",
+    "test": "node --test tests/brief.test.mjs",
+    "t3n:whoami": "tsx src/t3n/whoami.ts",
+    "t3n:deploy": "tsx src/t3n/deploy.ts",
+    "t3n:brief": "tsx src/t3n/invoke.ts"
+  },
+  "dependencies": {
+    "@terminal3/t3n-sdk": "^5.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

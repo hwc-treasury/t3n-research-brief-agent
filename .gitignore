@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+contract/target/
+.t3n-deploy.json
+hello.txt
