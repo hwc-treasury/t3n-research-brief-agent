@@ -47,7 +47,7 @@ Handover is docs/HANDOVER.md plus this repo. One job, one contract, one map.
 
 ## Eligibility answers (for the Superteam form)
 
-- Email address: (Jacob fills this)
+- Email address: hwc.treasury@agentmail.to
 - DID generated from the page: BLOCKED until SSO claim. Placeholder: did:t3n:REPLACE_AFTER_CLAIM
 - Continue running or pass to you: Pass it to Terminal 3 to run. We will stay reachable for questions.
 
@@ -56,7 +56,7 @@ Handover is docs/HANDOVER.md plus this repo. One job, one contract, one map.
 1. T3N DID / API key. go.terminal3.io/adk-community and the claim page require
    a browser Google / work-email SSO login. This box must not use Jacob's
    personal accounts. No key was created. Local agent is fully scaffolded.
-2. GitHub publish. gh is not logged in. Project is on disk at /workspace/t3n-agent.
+2. Public GitHub: https://github.com/hwc-treasury/t3n-research-brief-agent
    Do not publish with a personal identity unless that is intended.
 3. Superteam submit. Listing agentAccess is HUMAN_ONLY. Submit in the browser
    as a human. Needs public GitHub + public Google Doc + DID + email.
