@@ -16,7 +16,7 @@
     "t3n:brief": "tsx src/t3n/invoke.ts"
   },
   "dependencies": {
-    "@terminal3/t3n-sdk": "^5.2.0"
+    "@terminal3/t3n-sdk": "5.2.0"
   },
   "devDependencies": {
     "tsx": "^4.20.0",
