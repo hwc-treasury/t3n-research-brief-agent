@@ -71,3 +71,5 @@ refreshed ADK docs on 26 Aug 2026. None were invented.
 
 - Public GitHub exists: https://github.com/hwc-treasury/t3n-research-brief-agent
 - DID still blocked on Google-only SSO for a non-Google agent mailbox.
+
+19. Confirmed 28 Aug 2026: @terminal3/t3n-sdk 5.3.0 fails whoami with "Trust manifest ... is malformed" because it requires rtmr1_allowlist; live testnet manifest only has peer_ids + rtmr3_allowlist. 5.2.0 works. Pin 5.2.0.
